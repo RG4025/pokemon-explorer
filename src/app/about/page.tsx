@@ -124,7 +124,7 @@ export default function AboutPage() {
                 <div className="border-l-4 border-blue-500 pl-6">
                   <h3 className="text-lg font-semibold text-gray-800 dark:text-white mb-2">1. Browse Pokemon</h3>
                   <p className="text-gray-600 dark:text-gray-300">
-                    Start by browsing the Pokemon grid on the homepage. You'll see Pokemon cards with their 
+                    Start by browsing the Pokemon grid on the homepage. You&apos;ll see Pokemon cards with their 
                     images, names, types, and basic information. Click on any Pokemon card to view detailed information.
                   </p>
                 </div>
@@ -133,7 +133,7 @@ export default function AboutPage() {
                   <h3 className="text-lg font-semibold text-gray-800 dark:text-white mb-2">2. Search Pokemon</h3>
                   <p className="text-gray-600 dark:text-gray-300">
                     Use the search bar at the top of the page to find specific Pokemon. Type the name of any 
-                    Pokemon (e.g., "Pikachu", "Charizard") and the results will update in real-time. The search 
+                    Pokemon (e.g., &quot;Pikachu&quot;, &quot;Charizard&quot;) and the results will update in real-time. The search 
                     is case-insensitive and supports partial matches.
                   </p>
                 </div>
@@ -141,7 +141,7 @@ export default function AboutPage() {
                 <div className="border-l-4 border-green-500 pl-6">
                   <h3 className="text-lg font-semibold text-gray-800 dark:text-white mb-2">3. View Details</h3>
                   <p className="text-gray-600 dark:text-gray-300">
-                    Click on any Pokemon card to navigate to the detail page. Here you'll find comprehensive 
+                    Click on any Pokemon card to navigate to the detail page. Here you&apos;ll find comprehensive 
                     information including:
                   </p>
                   <ul className="list-disc list-inside mt-2 text-gray-600 dark:text-gray-300 space-y-1">
@@ -238,7 +238,7 @@ export default function AboutPage() {
                     </div>
                     <div>
                       <h3 className="font-semibold text-gray-800 dark:text-white">Quick Search</h3>
-                      <p className="text-sm text-gray-600 dark:text-gray-300">Try searching for popular Pokemon like "Pikachu", "Charizard", or "Mewtwo"</p>
+                      <p className="text-sm text-gray-600 dark:text-gray-300">Try searching for popular Pokemon like &quot;Pikachu&quot;, &quot;Charizard&quot;, or &quot;Mewtwo&quot;</p>
                     </div>
                   </div>
                   

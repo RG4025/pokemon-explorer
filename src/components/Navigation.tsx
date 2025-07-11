@@ -4,11 +4,7 @@ import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import ThemeToggle from './ThemeToggle';
 
-interface NavigationProps {
-  showBackButton?: boolean;
-}
-
-const Navigation: React.FC<NavigationProps> = ({ showBackButton = false }) => {
+const Navigation: React.FC = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [mounted, setMounted] = useState(false);
 

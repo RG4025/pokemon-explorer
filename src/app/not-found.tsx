@@ -7,7 +7,7 @@ export default function NotFound() {
         <div className="text-8xl mb-4">😢</div>
         <h1 className="text-4xl font-bold text-gray-800 mb-4">Pokemon Not Found</h1>
         <p className="text-gray-600 text-lg mb-8">
-          The Pokemon you're looking for doesn't exist in this region.
+          The Pokemon you&apos;re looking for doesn&apos;t exist in this region.
         </p>
         <Link
           href="/"

@@ -3,12 +3,11 @@ import { notFound } from 'next/navigation';
 import Image from 'next/image';
 import Link from 'next/link';
 import Navigation from '@/components/Navigation';
-import { Pokemon } from '@/types/pokemon';
 
 interface PokemonDetailPageProps {
-  params: {
+  params: Promise<{
     id: string;
-  };
+  }>;
 }
 
 const getTypeColor = (type: string) => {
@@ -49,7 +48,8 @@ const getStatColor = (statName: string) => {
 
 export default async function PokemonDetailPage({ params }: PokemonDetailPageProps) {
   try {
-    const pokemon = await getPokemonById(parseInt(params.id));
+    const resolvedParams = await params;
+    const pokemon = await getPokemonById(parseInt(resolvedParams.id));
     
     return (
       <div className="min-h-screen bg-gradient-to-br from-blue-50 via-purple-50 to-pink-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 transition-colors duration-300">

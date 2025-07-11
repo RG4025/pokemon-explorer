@@ -241,7 +241,7 @@ export default function HomePage() {
                   <div className="text-lg font-semibold text-gray-700 dark:text-gray-200 mb-2">
                     {loading ? 'Loading Pokemon...' : 'Searching Pokemon...'}
                   </div>
-                  <div className="text-sm text-gray-500 dark:text-gray-400">Gotta catch 'em all!</div>
+                  <div className="text-sm text-gray-500 dark:text-gray-400">Gotta catch &apos;em all!</div>
                 </div>
               </div>
             </div>
